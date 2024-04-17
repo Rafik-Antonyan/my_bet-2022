@@ -1,0 +1,13 @@
+.mainContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: calc(100vh - 220px);
+    background-color: rgb(77, 10, 10);
+    border-top: 2px solid white;
+
+    &_container {
+        width: 75%;
+        height: 100%;
+    }
+}
